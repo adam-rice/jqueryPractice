@@ -10,6 +10,7 @@ header {
   height: 35vh;
   background-color: #EECD86;
   border-bottom: solid 4px #E18942;
+  margin-bottom: 60px;
 }
 h1 {
   font-size: 3rem;
@@ -30,24 +31,26 @@ button {
   color: #FFFFFF;
   background-color: #E18942;
   outline: none;
+  transition-duration: 0.4s;
 }
 button:hover {
   background-color: #B95835;
   cursor: pointer;
 }
 button:active {
-  transform: translateY(2px);
+  transform: translateY(8px);
 }
 section {
   display: flex;
   justify-content: center;
 }
 article {
+  display: none;
   flex-wrap: wrap;
   border: solid 4px #3D3242;
   width: 220px;
   height: 220px;
-  margin: 30px 15px;
+  margin: 0px 15px;
 }
 h3 {
   background-color: #3D3242;
